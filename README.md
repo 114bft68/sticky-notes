@@ -13,3 +13,6 @@
 things required to download:
 \
 Express.js, *Node.js FS*, *Node.js Path*, Body-parser, Js-beautify, and a C compiler
+\
+\
+*You may need to edit the commands in **runCommand.c** if you're not a Windows user*
