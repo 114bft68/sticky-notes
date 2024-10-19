@@ -6,4 +6,9 @@
 - click the ✓ button to save (if the button becomes red, there's an error)
 \
 \
+\
 *this project was created with basic knowledge of HTML, CSS, JavaScript Web API, Node.js, and C*
+\
+things required to download:
+\
+Express.js, *Node.js FS*, *Node.js Path*, Body-parser, Js-beautify, and a C compiler
