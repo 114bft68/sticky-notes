@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #282a36;
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    user-select: none;
+}
+
+#ok,
+#add {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 1px rgba(255, 255, 255, 0.2);
+    transition: all 0.5s;
+}
+
+#ok {
+    right: 120px;
+}
+
+#ok:hover,
+#add:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.2);
+}
+
+.note {
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+    background: #a6a6a6;
+    position: absolute;
+    box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.2);
+}
+
+.text {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 330px;
+    height: 250px;
+    outline: none;
+    overflow: scroll;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background: #cdcdcd;
+}
+
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+.delete {
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.note:hover > .delete {
+    display: flex;
+}
