@@ -11,5 +11,6 @@
 - click the ✓ button to save (if the button becomes red, there's an error)
 
 \
-\
-*this project was created with basic knowledge of HTML, CSS, JavaScript Web API, Node.js, and C* (actually this project could be implemented without C)
+*this project was created with basic knowledge of HTML, CSS, plain JavaScript, Node.js, and C\
+*(actually this project could be implemented without C)*\
+*made as a practice*
